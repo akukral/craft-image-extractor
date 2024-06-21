@@ -1,0 +1,48 @@
+{
+  "name": "akukral/craft-image-extrator",
+  "description": "Extract every image from existing asset fields from an entry or field recursivley including nested matrix fields.",
+  "type": "craft-plugin",
+  "license": "proprietary",
+  "support": {
+    "email": "me@allankukral.com",
+    "issues": "https://github.com/akukral/craft-image-extrator/issues?state=open",
+    "source": "https://github.com/akukral/craft-image-extrator",
+    "docs": "https://github.com/akukral/craft-image-extrator",
+    "rss": "https://github.com/akukral/craft-image-extrator/releases.atom"
+  },
+  "require": {
+    "php": ">=8.2",
+    "craftcms/cms": "^5.2.0"
+  },
+  "require-dev": {
+    "craftcms/ecs": "dev-main",
+    "craftcms/phpstan": "dev-main"
+  },
+  "autoload": {
+    "psr-4": {
+      "akukral\\craftimageextrator\\": "src/"
+    }
+  },
+  "extra": {
+    "handle": "image-extrator",
+    "name": "Image Extrator",
+    "developer": "Allan Kukral",
+    "documentationUrl": "https://github.com/akukral/craft-image-extrator",
+    "class": "akukral\\craftimageextrator\\ImageExtractor"
+  },
+  "scripts": {
+    "check-cs": "ecs check --ansi",
+    "fix-cs": "ecs check --ansi --fix",
+    "phpstan": "phpstan --memory-limit=1G"
+  },
+  "config": {
+    "sort-packages": true,
+    "platform": {
+      "php": "8.2"
+    },
+    "allow-plugins": {
+      "yiisoft/yii2-composer": true,
+      "craftcms/plugin-installer": true
+    }
+  }
+}

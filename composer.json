@@ -1,14 +1,25 @@
 {
-  "name": "akukral/craft-image-extrator",
+  "name": "akukral/craft-image-extractor",
   "description": "Extract every image from existing asset fields from an entry or field recursivley including nested matrix fields.",
   "type": "craft-plugin",
+  "keywords": [
+    "some",
+    "keywords",
+    "here"
+  ],
   "license": "proprietary",
+  "authors": [
+    {
+      "name": "Allan Kukral",
+      "homepage": "https://allankukral.com"
+    }
+  ],
   "support": {
     "email": "me@allankukral.com",
-    "issues": "https://github.com/akukral/craft-image-extrator/issues?state=open",
-    "source": "https://github.com/akukral/craft-image-extrator",
-    "docs": "https://github.com/akukral/craft-image-extrator",
-    "rss": "https://github.com/akukral/craft-image-extrator/releases.atom"
+    "issues": "https://github.com/akukral/craft-image-extractor/issues?state=open",
+    "source": "https://github.com/akukral/craft-image-extractor",
+    "docs": "https://github.com/akukral/craft-image-extractor",
+    "rss": "https://github.com/akukral/craft-image-extractor/releases.atom"
   },
   "require": {
     "php": ">=8.2",
@@ -27,7 +38,7 @@
     "handle": "image-extrator",
     "name": "Image Extrator",
     "developer": "Allan Kukral",
-    "documentationUrl": "https://github.com/akukral/craft-image-extrator",
+    "documentationUrl": "https://github.com/akukral/craft-image-extractor",
     "class": "akukral\\craftimageextrator\\ImageExtractor"
   },
   "scripts": {

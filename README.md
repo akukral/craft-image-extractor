@@ -1,4 +1,4 @@
-# Image Extrator
+# Image Extractor
 
 Extract every image from existing asset fields from an entry or field recursivley including nested matrix fields.
 
@@ -23,8 +23,22 @@ Open your terminal and run the following commands:
 cd /path/to/my-project.test
 
 # tell Composer to load the plugin
-composer require akukral/craft-image-extrator
+composer require akukral/craft-image-extratcor
 
 # tell Craft to install the plugin
-./craft plugin/install image-extrator
+./craft plugin/install image-extractor
+```
+
+
+### Usage
+
+In your Twig templates:
+
+```
+{% set entry = craft.entries.id(123).one() %}
+{% set allImages = entry.getAllImages() %}
+
+{% for image in allImages %}
+    <img src="{{ image.url }}" alt="{{ image.title }}">
+{% endfor %}
 ```

@@ -31,7 +31,7 @@
   },
   "autoload": {
     "psr-4": {
-      "akukral\\craftimageextrator\\": "src/"
+      "akukral\\craftimageextractor\\": "src/"
     }
   },
   "extra": {
@@ -39,7 +39,7 @@
     "name": "Image Extrator",
     "developer": "Allan Kukral",
     "documentationUrl": "https://github.com/akukral/craft-image-extractor",
-    "class": "akukral\\craftimageextrator\\ImageExtractor"
+    "class": "akukral\\craftimageextractor\\ImageExtractor"
   },
   "scripts": {
     "check-cs": "ecs check --ansi",

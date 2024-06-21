@@ -1,5 +1,5 @@
 <?php
-namespace akukral\craftimageextrator\services;
+namespace akukral\craftimageextractor\services;
 
 use Craft;
 use craft\base\Component;

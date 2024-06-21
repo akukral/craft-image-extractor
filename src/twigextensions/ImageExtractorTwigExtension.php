@@ -1,7 +1,7 @@
 <?php
-namespace akukral\craftimageextrator\twigextensions;
+namespace akukral\craftimageextractor\twigextensions;
 
-use akukral\craftimageextrator\ImageExtractor;
+use akukral\craftimageextractor\ImageExtractor;
 use Twig\Extension\AbstractExtension;
 use Twig\TwigFunction;
 
